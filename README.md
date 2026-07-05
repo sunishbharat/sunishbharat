@@ -49,6 +49,11 @@ Works with Claude Desktop, Claude Code, Cursor, and any MCP-compatible client.
 ---
 
 ## Other things I've built
+**[just-tell-me](https://github.com/sunishbharat/just-tell-me)**
+A plain-English-to-software pipeline, built in milestones. AI coding workflows involve too much manual orchestration, writing personas, generating specs, reviewing them, revising, repeating. `just-tell-me` automates that loop: describe a feature in one paragraph, and the tool chains persona generation, spec writing, review, and revision cycles until the spec is clean. Works with Anthropic, OpenAI, Groq, and local models via LiteLLM.
+
+**[limitless-llm](https://github.com/sunishbharat/limitless-llm)**
+Brings paid-API reliability to free-tier LLM providers. Free tiers mean strict TPM rate limits and small effective context windows; this library solves both with a rolling-window TPM scheduler (zero 429 errors, no fixed sleeps), sentence-aware chunking with bidirectional overlap, and hierarchical merging with conflict detection, so large documents process reliably without losing information across chunk boundaries.
 
 **[llm-from-the-ground-up](https://github.com/sunishbharat/llm-from-the-ground-up)**
 I wanted to really understand transformers, so I built a GPT-2 style LLM from scratch in PyTorch. Every layer, every matrix multiply, no black boxes.
