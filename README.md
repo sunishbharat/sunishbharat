@@ -2,7 +2,6 @@
 
 # Sunish Bharathan
 
-### I got tired of writing JQL. So I built an AI tool that does it for me.
 
 🌐 **[atlasmind.de](https://atlasmind.de)**
 
